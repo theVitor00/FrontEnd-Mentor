@@ -22,6 +22,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100vh;
 }
 
 .card {
@@ -33,7 +34,7 @@ body {
   align-items: center;
   padding: 15px;
   border-radius: 10px;
-  margin-top: 200px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
 }
 
 .img-container img {
@@ -60,3 +61,4 @@ p {
   margin-top: 15px;
   font-weight: 400;
 }
+
